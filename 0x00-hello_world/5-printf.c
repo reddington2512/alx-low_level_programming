@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - A programm that prints with print functions
  *
