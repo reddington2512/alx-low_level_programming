@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int maun(void)
+int main(void)
 {
 	char i;
 
