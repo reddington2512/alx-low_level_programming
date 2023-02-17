@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - mqain function
+ * main - main function
  *
  * Return: always 0
  */
