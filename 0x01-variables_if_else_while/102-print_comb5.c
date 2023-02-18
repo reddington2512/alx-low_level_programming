@@ -8,7 +8,10 @@
 
 int main(void)
 {
-	int c, i, k, j;
+	int c;
+	int i;
+	int j;
+	int k;
 
 	for (c = 48 ; c <= 57 ; c++)
 	{
