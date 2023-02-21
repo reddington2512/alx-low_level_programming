@@ -1,25 +1,16 @@
 #include "main.h"
 /**
- * jack_bauer - prints 24hrs time
+ * _abs - check for absolute value
+ * @a: parameter to be checked
  *
- * Return: always 0
+ * return: always a
  */
 
-void jack_bauer(void)
+int _abs(int a)
 {
-	int i;
-	int j;
-
-	for (i = 0 ; i < 24 ; i++)
-	{
-		for (j = 0 ; j < 60 ; j++)
-		{
-			_putchar(i / 10 + '0');
-			_putchar(i % 10 + '0');
-			_putchar(':');
-			_putchar(j / 10 + '0');
-			_putchar(j % 10 + '0');
-			_putchar('\n');
-		}
-	}
+	if (a < 0)
+		a = -(a);
+	else if (a >= 0)
+		a = a;
+	return (a);
 }
