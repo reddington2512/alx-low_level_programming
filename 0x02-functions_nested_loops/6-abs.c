@@ -3,7 +3,7 @@
  * _abs - check for absolute value
  * @a: parameter to be checked
  *
- * return: a
+ * Return: a
  */
 
 int _abs(int a)
