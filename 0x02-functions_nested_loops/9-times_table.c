@@ -1,9 +1,7 @@
 #include "main.h"
-no.9 #include "main.h"
-
 /**
  * times_table - times table function
- *
+ * Return: always success
  */
 void times_table(void)
 {
